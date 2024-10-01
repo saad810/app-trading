@@ -80,7 +80,15 @@ const userSchema = new mongoose.Schema(
     stripeId: {
       type: String,
     },
-
+    easypaisaNumber: {
+      type: String,
+    },
+    transactionId: {
+      type: String,
+    },
+    method: {
+      type: String
+    },
     realTrade: {
       type: Boolean,
       default: false,
